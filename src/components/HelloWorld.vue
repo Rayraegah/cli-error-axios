@@ -14,9 +14,7 @@
     </div>
     <div>
       <pre>
-        <code>
-          {{responseData}}
-        </code>
+        <code>{{responseData}}</code>
       </pre>
     </div>
   </div>
@@ -33,7 +31,7 @@ export default {
   data: () => ({
     email: "",
     password: "",
-    filaname: "",
+    filaname: "test.py",
     gistId: "ce5cb5b5297b5dd0347d7650ada9971b",
     something: +new Date(),
     responseData: "No response!"
@@ -96,6 +94,6 @@ a {
 }
 code {
   display: block;
-  width: 100%;
+  text-align: left;
 }
 </style>
